@@ -1,0 +1,62 @@
+/*
+	Color Palletes:
+	● #DB7F67
+	● #DBBEA1
+	● #A37B73
+	● #3F292B
+	● #D34F73
+*/
+
+:root {
+	--main-bg: #3F292B;
+	--second-bg: #A37B73;
+	--primary-color: #DBBEA1;
+	--secondary-color: #DB7F67;
+	--dimmer: #D34F73;
+	--fonts: sans-serif;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: var(--fonts);
+	color: var(--primary-color);
+}
+
+body {
+	background-color: var(--main-bg) !important;
+	height: 100vh;
+}
+
+h1 {
+	color: var(--primary-color);
+	background-color: var(--second-bg);
+	text-align: center;
+	padding: 25px 0;
+}
+
+ul {
+	text-align: center;
+	list-style-type: none;
+	list-style-position: inside;
+	display: flex;
+	justify-content: center;
+}
+
+ul li {
+	padding: 20px 5px;
+	width: 150px;
+}
+
+ul li:hover {
+	border-bottom: 3px solid var(--primary-color);
+}
+
+a {
+	text-decoration: none;
+}
+
+.active {
+	background-color: #D34F73;
+}
