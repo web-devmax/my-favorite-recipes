@@ -50,7 +50,7 @@ ul li {
 	position: relative;
 }
 
-a {
+ul li a {
 	text-decoration: none;
 	position: absolute;
 	top: 0;
@@ -62,13 +62,11 @@ a {
 	padding: 10px;
 }
 
-a:hover {
+ul li a:hover {
 	border-bottom: 3px solid var(--primary-color);
-	text-decoration: bold;
 }
 
 .active {
 	background-color: var(--dimmer);
 	color: var(--main-bg) !important;
-	text-decoration: bold;
 }
