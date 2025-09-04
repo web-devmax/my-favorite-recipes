@@ -33,10 +33,10 @@ h1 {
 	color: var(--primary-color);
 	background-color: var(--second-bg);
 	text-align: center;
-	padding: 25px 0;
+	padding: 1em 0;
 }
 
-ul {
+nav ul {
 	text-align: center;
 	list-style-type: none;
 	list-style-position: inside;
@@ -44,13 +44,13 @@ ul {
 	justify-content: center;
 }
 
-ul li {
+nav ul li {
 	padding: 20px 5px;
 	width: 150px;
 	position: relative;
 }
 
-ul li a {
+nav ul li a {
 	text-decoration: none;
 	position: absolute;
 	top: 0;
@@ -62,11 +62,26 @@ ul li a {
 	padding: 10px;
 }
 
-ul li a:hover {
+nav ul li a:hover {
 	border-bottom: 3px solid var(--primary-color);
 }
 
 .active {
 	background-color: var(--dimmer);
 	color: var(--main-bg) !important;
+}
+
+main {
+	padding: 20px;
+}
+
+main section {
+	border: 1px solid var(--primary-color);
+	width: 80vw;
+	height: 75vh;
+	margin: auto;
+}
+
+main section ul {
+	list-style-type: none;
 }
