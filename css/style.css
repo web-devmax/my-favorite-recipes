@@ -29,7 +29,14 @@ body {
 	height: 100vh;
 }
 
-h1 {
+header h1 {
+	color: var(--primary-color);
+	background-color: var(--second-bg);
+	text-align: center;
+	padding: 1em 0;
+}
+
+header h2 {
 	color: var(--primary-color);
 	background-color: var(--second-bg);
 	text-align: center;
@@ -72,16 +79,38 @@ nav ul li a:hover {
 }
 
 main {
-	padding: 20px;
+	padding: 1em;
 }
 
 main section {
-	border: 1px solid var(--primary-color);
 	width: 80vw;
 	height: 75vh;
 	margin: auto;
+	display: flex;
 }
 
 main section ul {
+	border: 1px solid var(--primary-color);
 	list-style-type: none;
+	padding: 1em;
+	width: 20%;
+	text-align: left;
+}
+
+main section article {
+	width: 80%;
+	margin-left: 1em;
+}
+
+main section article iframe {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+main section img {
+	display: block;
+	width: 80%;
+	height: 100%;
+	margin: auto;
 }

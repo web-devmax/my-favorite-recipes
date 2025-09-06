@@ -13,7 +13,7 @@
 		<h1>My Favorite Recipes</h1>
 		<nav>
 			<ul>
-				<li><a href="/" class="active">Breakfast</a></li>
+				<li><a href="./breakfast/pancake.html" class="active">Breakfast</a></li>
 				<li><a href="lunch/lunch.html">Lunch</a></li>
 				<li><a href="dinner/dinner.html">Dinner</a></li>
 			</ul>
@@ -22,12 +22,22 @@
 	<main>
 		<section>
 			<ul>
-				<li><a href="#">Sample Link</a></li>
-				<li><a href="#">Sample Link</a></li>
-				<li><a href="#">Sample Link</a></li>
-				<li><a href="#">Sample Link</a></li>
-				<li><a href="#">Sample Link</a></li>
+				<li><a href="./breakfast/pancake.html" target="frame">Pancake</a></li>
+				<li><a href="./breakfast/eggs-benedict.html" target="frame">Eggs Benedict</a></li>
+				<li><a href="./breakfast/waffle.html" target="frame">Waffle</a></li>
+				<li><a href="./breakfast/oatmeal.html" target="frame">Oatmeal</a></li>
+				<li><a href="./breakfast/hash-brown.html" target="frame">Hash Brown</a></li>
 			</ul>
+			<article>
+				<iframe
+					src="./breakfast/breakfast.html"
+					frameborder="0"
+					name="frame"
+					title="frame"
+					scrolling="no">
+					No Inline Frame Support
+				</iframe>
+			</article>
 		</section>
 	</main>
 </body>
